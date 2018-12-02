@@ -1,15 +1,13 @@
 # AdventOfCode
 
-Currently I've just been using `iex` to run my exercises. `iex -S mix`
+Use `mix` to run each exercise. For example, day one, part one:
 
 ```
-Erlang/OTP 21 [erts-10.0.5] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [hipe]
-
-Compiling 2 files (.ex)
-Interactive Elixir (1.7.2) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> AdventOfCode.run
-... <exercise starts running here>
+$ mix d01.p1
+Part 1 Result: xxx
 ```
+
+To see all commands, run `mix help`.
 
 ## Installation
 
